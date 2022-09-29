@@ -1,1 +1,8 @@
-//
+@import './partials/common';
+@import './partials/movies';
+@import './partials/homepage';
+
+main {
+    height: 100vh;
+    background-color: black;
+}

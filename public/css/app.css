@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.t_center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.t_center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  flex-wrap: wrap;
+}
+
+.container .movie_card {
+  width: 20%;
+  border-radius: 10px;
+  color: white;
+}
+
+.container .movie_card .movie_title {
+  font-weight: bold;
+}
+
+.container .movie_card .movie_description {
+  font-size: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.t_center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn_container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_container .btn {
+  height: 100px;
+  width: 300px;
+  font-size: 2rem;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn_container .btn a {
+  color: white;
+}
+
+main {
+  height: 100vh;
+  background-color: black;
+}
+
