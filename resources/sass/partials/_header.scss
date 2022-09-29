@@ -1,0 +1,16 @@
+@import './common';
+
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 999;
+
+    li {
+        margin: 0 10px;
+    }
+}

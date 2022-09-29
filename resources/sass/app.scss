@@ -1,8 +1,8 @@
 @import './partials/common';
-@import './partials/movies';
 @import './partials/homepage';
+@import './partials/header';
 
 main {
     height: 100vh;
-    background-color: black;
+    margin-top: 100px;
 }

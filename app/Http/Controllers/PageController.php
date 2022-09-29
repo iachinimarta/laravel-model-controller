@@ -3,10 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Movie;
 
 class PageController extends Controller
 {
     public function index() {
-        return view('homepage');
+
+        $movies = Movie::all();
+
+        return view('homepage', compact('movies'));
     }
 }
